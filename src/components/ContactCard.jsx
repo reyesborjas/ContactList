@@ -78,8 +78,8 @@ const ContactCard = ({ contact }) => {
 
       {/* Confirmation Modal */}
       {showConfirmModal && (
-        <div className="modal show" style={{ display: "block" }}>
-          <div className="modal-dialog">
+        <div className="modal fade show" tabIndex="-1" role="dialog" style={{ display: "block", backgroundColor: "rgba(0,0,0,0.5)" }}>
+          <div className="modal-dialog" role="document">
             <div className="modal-content">
               <div className="modal-header">
                 <h5 className="modal-title">Confirm Delete</h5>
@@ -124,7 +124,6 @@ const ContactCard = ({ contact }) => {
               </div>
             </div>
           </div>
-          <div className="modal-backdrop fade show"></div>
         </div>
       )}
     </>
