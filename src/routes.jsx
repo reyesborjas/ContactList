@@ -6,11 +6,8 @@ import {
     Route,
 } from "react-router-dom";
 import { Layout } from "./pages/Layout";
-import { Home } from "./pages/Home";
-import { Single } from "./pages/Single";
-import { Demo } from "./pages/Demo";
-import { Contact } from "./pages/Contact";
-import { AddContact } from "./pages/AddContact";
+import Contact from "./pages/Contact";
+import AddContact from "./pages/AddContact";
 export const router = createBrowserRouter(
     createRoutesFromElements(
     // CreateRoutesFromElements function allows you to build route elements declaratively.
