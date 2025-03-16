@@ -7,7 +7,7 @@ import { AppContextProvider } from './context/AppContext.jsx';
 import "./index.css";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./routes";  
-import { StoreProvider } from './hooks/useGlobalReducer';
+
 
 const Main = () => {
     return (
